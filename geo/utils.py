@@ -1,6 +1,9 @@
 import math
 
-def calculate_circle_properties(radius):
-    c = 2 * math.pi * radius
-    area = math.pi * radius ** 2
-    return c, area
+def pythagoras(a, b):
+    c = math.sqrt(a**2 + b**2)
+    return c
+
+def circle(r):
+    area = math.pi * r**2
+    return area

@@ -1,7 +1,11 @@
-from geo.utils import calculate_circle_properties
+import geo.utils as utils
 
-if __name__ == "__main__":
-    radius = 5  
-    c, area = calculate_circle_properties(radius)
-    print(f"c = {c}") 
-    print(f"area = {area}") 
+
+a, b = 3, 4
+c = utils.pythagoras(a, b)
+print('c =', c)
+
+
+r = 10
+area = utils.circle(r)
+print('area =', area)
